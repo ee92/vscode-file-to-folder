@@ -1,7 +1,7 @@
 {
-	"name": "create-react-component-folder",
-	"displayName": "create-react-component-folder",
-	"description": "creates a react component folder with a module.css test.js and index.js files",
+	"name": "Folderize",
+	"displayName": "Folderize",
+	"description": "Easily convert a Javascript file into a folder. Supports .js .jsx, .ts, .tsx, .etc",
 	"version": "0.0.1",
 	"publisher": "ee92",
 	"repository": {
@@ -15,26 +15,26 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.createReactComponentFolder"
+		"onCommand:extension.folderize"
 	],
 	"main": "./extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "extension.createReactComponentFolder",
-				"title": "Create React Component Folder"
+				"command": "extension.folderize",
+				"title": "Folderize"
 			}
 		],
 		"menus": {
 			"editor/context": [
 			  {
-				 "command": "extension.createReactComponentFolder",
+				 "command": "extension.folderize",
 				 "group": "boilerplate@1"
 			  }
 			],
 			"explorer/context": [
 				{
-				  "command": "extension.createReactComponentFolder",
+				  "command": "extension.folderize",
 				  "group": "boilerplate@1"
 				}
 			 ]
