@@ -4,6 +4,10 @@
 	"description": "creates a react component folder with a module.css test.js and index.js files",
 	"version": "0.0.1",
 	"publisher": "ee92",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ee92/vscode-file-to-folder"
+	},
 	"engines": {
 		"vscode": "^1.36.0"
 	},
