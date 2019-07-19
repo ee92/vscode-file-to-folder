@@ -1,7 +1,7 @@
 {
-	"name": "Folderize",
+	"name": "folderize",
 	"displayName": "Folderize",
-	"description": "Easily convert a Javascript file into a folder. Supports .js .jsx, .ts, .tsx, .etc",
+	"description": "Easily convert a Javascript file into a folder. Supports .js .jsx, .ts, .tsx, etc",
 	"version": "0.0.1",
 	"publisher": "ee92",
 	"repository": {
@@ -39,9 +39,6 @@
 				}
 			 ]
 		 }
-	},
-	"scripts": {
-		"test": "node ./test/runTest.js"
 	},
 	"devDependencies": {
 		"@types/glob": "^7.1.1",
